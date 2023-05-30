@@ -1,0 +1,35 @@
+# Ignorowanie plików generowanych przez rozszerzenia
+*.egg-info/
+*.egg
+dist/
+build/
+lib/
+bin/
+
+# Ignorowanie zainstalowanych pakietów Pythona
+/.venv/
+venv/
+env/
+env.bak/
+ENV/
+
+# Ignorowanie plików logów
+*.log
+
+# Ignorowanie plików konfiguracyjnych
+*.cfg
+*.conf
+
+# Ignorowanie plików tymczasowych
+*.tmp
+*.bak
+*.swp
+*.~
+
+# Ignorowanie plików wynikowych i katalogów
+*.pyc
+__pycache__/
+
+# Ignorowanie plików systemowych
+.DS_Store
+Thumbs.db
